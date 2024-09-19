@@ -14,14 +14,17 @@ Sample Project Study (Yoda App) doing some tests using Appium + Robot Framework 
 * It is required to have Appium Inspector installed to run this project.
 
 * Install [Appium Inspector](https://github.com/appium/appium-inspector) and create the variables below:
-  * platformName 	TEXT	Android
-  * deviceName	TEXT	Android Emulator
-  * automationName	TEXT	UIAutomator2
-  * appium:app	TEXT	C:\QAx\prj\stdAppium\appstd-alpha.apk
+ 
+  * "platformName": "Android",
+  * "appium:deviceName": "Android Emulator",
+  * "appium:automationName": "UIAutomator2",
+  * "appium:app": "C:\\QAx\\prj\\stdAppiumYodapp\\yodapp\\yodapp-beta.apk",
+  * "appium:udid": "emulator-5554",
+  * "autoGrantPermissions": true
 
 ## Installation
 
-Run `npm install` (or `npm i` for the short version) to install the dev dependencies.
+Run `npm init` (or `npm i` for the short version) to install the dev dependencies.
 
 Then run:
 ```
