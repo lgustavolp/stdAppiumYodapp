@@ -25,6 +25,7 @@ Sample Project Study (Yoda App) doing some tests using Appium + Robot Framework 
 ## Installation
 
 Run `npm init` (or `npm i` for the short version) to install the dev dependencies.
+Run `npm i appium` (or `npm i` for the short version) to install the dev dependencies.
 
 Then run:
 ```
