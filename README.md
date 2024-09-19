@@ -6,8 +6,10 @@ Sample Project Study (Yoda App) doing some tests using Appium + Robot Framework 
 
 ## Pre-requirements
 
-* It is required to have Node.js and npm installed to run this project.
+* It is required to have python installed to run this project.
+* It is required to have pip installed to run this project.
 * It is required to have robot framework installed to run this project.
+* It is required to have Node.js and npm installed to run this project.
 * It is required to have UIAutomator2 installed to run this project.
 * It is required to have Appium Inspector installed to run this project.
 
