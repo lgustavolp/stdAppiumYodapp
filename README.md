@@ -11,6 +11,7 @@ Sample Project Study (Yoda App) doing some tests using Appium + Robot Framework 
 * It is required to have robot framework installed to run this project.
 * It is required to have Node.js and npm installed to run this project.
 * It is required to have UIAutomator2 installed to run this project.
+* It is required to have Android Studio installed to run this project.
 * It is required to have Appium Inspector installed to run this project.
 
 * Install [Appium Inspector](https://github.com/appium/appium-inspector) and create the variables below:
@@ -35,7 +36,7 @@ adb devices -> See all the devices online
 npx appium -> Start the Appium server
 ```
 
-# Appium Doctor
+### Appium Doctor
 You can just run this command below to install Appium Doctor and check some features installed before running the app (android).
 ```
 npm i appium-doctor
