@@ -36,11 +36,14 @@ npx appium -> Start the Appium server
 ```
 
 # Appium Doctor
-Run this command below to install Appium Doctor to check some features installed before running the App.
+You can just run this command below to install Appium Doctor and check some features installed before running the app (android).
 ```
 npm i appium-doctor
 ```
-
+then run:
+```
+npx appium-doctor --android
+```
 ## Support this project
 
 If you want to support this project, leave a ⭐.
