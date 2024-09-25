@@ -35,6 +35,12 @@ adb devices -> See all the devices online
 npx appium -> Start the Appium server
 ```
 
+# Appium Doctor
+Run this command below to install Appium Doctor to check some features installed before running the App.
+```
+npm i appium-doctor
+```
+
 ## Support this project
 
 If you want to support this project, leave a ⭐.
